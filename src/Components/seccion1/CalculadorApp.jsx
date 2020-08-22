@@ -1,7 +1,7 @@
 import React from 'react';
 import Cabecera from './CabeceraCalculo';
 import Cuerpo from './CuerpoCalculo';
-import CabeceraIndice from '../seccion2/CabeceraIndice';
+
 
 function MiComponente(){
   return (
@@ -10,7 +10,7 @@ function MiComponente(){
    nombre_clase="cabecera_calculo"/>
    
    <Cuerpo />
-   <CabeceraIndice />
+  
  </section>
   );
 }

@@ -1,15 +1,13 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 
 function FormularioCalculo(props) {
     console.log(props);
     let {
         nombres
     } = props;
-    let htmlLi = "";
-    nombres.forEach((nombre) => {
-        htmlLi += `<li>${nombre}</li>`; 
-    });
-    console.log(htmlLi);
+    
+    console.log();
     return (
         <div className="column">
             <label htmlFor="peso">Peso (kilos)</label>
@@ -25,6 +23,13 @@ function FormularioCalculo(props) {
             </ul>
         </div>
     )
+}
+
+FormularioCalculo.proTypes ={
+ html : PropTypes.element.isRequired,
+ nombres : PropTypes.array,
+ notas : PropTypes.object,
+ micompontenver: PropTypes.object
 }
 
 export default FormularioCalculo
