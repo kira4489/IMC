@@ -26,7 +26,6 @@ class TablaIMC extends Component {
     }
 }
 
-TablaIMC.proTypes = {
-}
+
 
 export default TablaIMC
