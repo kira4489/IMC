@@ -3,15 +3,15 @@ import Cabecera from './CabeceraCalculo';
 import Cuerpo from './CuerpoCalculo';
 
 
-function MiComponente(){
+function MiComponente(props){
   return (
- <section className="panel">
-   <Cabecera titulo="Calculadora" 
-   nombre_clase="cabecera_calculo"/>
-   
-   <Cuerpo />
-  
- </section>
+<section className="panel">
+            <Cabecera titulo="Calculadora" 
+                      nombre_clase="cabecera_calculo"
+                      
+            />
+            <Cuerpo App = {props.App}/>
+        </section>
   );
 }
 

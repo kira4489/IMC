@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Componente1 from './components/seccion3/CalculadorApp'
-import Componente2 from './components/seccion2/DetalleIMCApp'
+import Componente1 from './Components/seccion3/CalculadorApp'
+import Componente2 from './Components/seccion2/DetalleIMCApp'
 	
 class App extends Component {
 	constructor(props){

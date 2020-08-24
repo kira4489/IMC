@@ -10,6 +10,10 @@ function VerCalculoImc(props) {
         </div>
     )
 }
+function calcularIMC({peso,altura}){
+    return peso / Math.pow(altura,2);
+}
+
 // function calcularImc({peso,altura}){
 // return peso/altura
 // }
