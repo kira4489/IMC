@@ -1,14 +1,15 @@
-import React, { Component } from 'react'
-import VerCalculo from './VerCalculoimc';
-import FormularioCalculo from './FormularioCalculo'
-export default class IMC extends Component {
+import React, { Component } from 'react';
+import FormularioCalculo from './FormularioCalculo';
+import VerCalculo from './VerCalculoIMC';
+class IMC extends Component {
     constructor(props){
         super(props);
-        this.state={
-            peso:0,
-            altura:1
+        this.state = {
+            peso : 0,
+            altura : 1,
         }
     }
+
     render() {
         return (
             <>
@@ -18,3 +19,5 @@ export default class IMC extends Component {
         );
     }
 }
+
+export default IMC;

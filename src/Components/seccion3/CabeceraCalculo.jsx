@@ -1,20 +1,11 @@
 import React from 'react'
 
 let CabeceraCalculo = ({nombre_clase,titulo}) => {
-  // let {
-  //   nombre_clase,
-  //   titulo
-  // } = props;
- return (
+    return (
         <div className="panel-heading">
-          <p>{titulo}</p>  
+            <p>{titulo}</p>
         </div>
-    );
+    )
 }
 
 export default CabeceraCalculo
-
-
-
-
-
